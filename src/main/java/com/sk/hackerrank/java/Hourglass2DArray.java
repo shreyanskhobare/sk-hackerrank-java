@@ -9,6 +9,10 @@ import java.util.List;
 /**
 * @author - Shreyans Khobare
 */
+/**
+ * Hackerrank Link:
+ * https://www.hackerrank.com/challenges/java-2d-array/problem?isFullScreen=true
+ */
 public class Hourglass2DArray {
 
 	public int maximumHourglassValue(List<List<Integer>> arr) {

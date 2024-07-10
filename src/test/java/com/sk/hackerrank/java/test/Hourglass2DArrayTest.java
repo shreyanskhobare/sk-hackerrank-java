@@ -23,7 +23,8 @@ import com.sk.hackerrank.java.Hourglass2DArray;
 * @author - Shreyans Khobare
 */
 /**
- * 
+ * Hackerrank Link:
+ * https://www.hackerrank.com/challenges/java-2d-array/problem?isFullScreen=true
  */
 class Hourglass2DArrayTest {
 	
