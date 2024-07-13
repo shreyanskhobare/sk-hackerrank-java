@@ -6,6 +6,7 @@ package com.sk.hackerrank.java;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
 * @author - Shreyans Khobare
@@ -26,6 +27,7 @@ public class ArcadeGameRankPlayer {
 	public List<Integer> climbingLeaderboard(List<Integer> ranked, List<Integer> player) {
 		// Write your code here
 		List<Integer> response = new ArrayList<>();
+
 		List<Integer> withoutRepetition = new ArrayList<>();
 		withoutRepetition.add(ranked.get(0));
 		for (int i = 1; i < ranked.size(); i++) {
@@ -36,8 +38,14 @@ public class ArcadeGameRankPlayer {
 			}
 
 		}
-		// Kept array without any repetition.
-		
+
+		/**
+		 * Kept array without any repetition. Better Solution using Stream:
+		 
+		 List<Integer> withoutRepetition = ranked.stream().distinct().collect(Collectors.toList());
+		 * 
+		 */
+
 		int rank = withoutRepetition.size() - 1;
 		for (Integer score : player) {
 
