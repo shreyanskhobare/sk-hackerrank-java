@@ -2,7 +2,7 @@
 Copyright [2024] Shreyans Dilip Khobare
 Proof of concept for Code Template
 */
-package com.sk.hackerrank.java.test;
+package com.sk.hackerrank.java.easy.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -12,7 +12,7 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.sk.hackerrank.java.ArcadeGameRankPlayer;
+import com.sk.hackerrank.java.easy.ArcadeGameRankPlayer;
 
 /**
 * @author - Shreyans Khobare

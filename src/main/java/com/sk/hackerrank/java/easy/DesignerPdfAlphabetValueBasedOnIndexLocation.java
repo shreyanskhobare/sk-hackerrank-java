@@ -2,7 +2,7 @@
 Copyright [2024] Shreyans Dilip Khobare
 Proof of concept for Code Template
 */
-package com.sk.hackerrank.java;
+package com.sk.hackerrank.java.easy;
 
 import java.util.List;
 import java.util.stream.IntStream;
