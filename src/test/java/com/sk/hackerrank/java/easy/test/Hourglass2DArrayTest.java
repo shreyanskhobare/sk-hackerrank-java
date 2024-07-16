@@ -6,7 +6,7 @@ Proof of concept for Code Template
 Copyright [2024] Shreyans Khobare
 Proof of concept for Copyright Statement
  */
-package com.sk.hackerrank.java.test;
+package com.sk.hackerrank.java.easy.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -17,7 +17,7 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.sk.hackerrank.java.Hourglass2DArray;
+import com.sk.hackerrank.java.easy.Hourglass2DArray;
 
 /**
 * @author - Shreyans Khobare
