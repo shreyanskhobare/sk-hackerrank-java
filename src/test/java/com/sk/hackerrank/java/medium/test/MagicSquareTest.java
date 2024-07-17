@@ -2,7 +2,7 @@
 Copyright [2024] Shreyans Dilip Khobare
 Proof of concept for Code Template
 */
-package com.sk.hackerrank.java.medium;
+package com.sk.hackerrank.java.medium.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 

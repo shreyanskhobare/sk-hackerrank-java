@@ -6,7 +6,6 @@ package com.sk.hackerrank.java.easy;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
 * @author - Shreyans Khobare
